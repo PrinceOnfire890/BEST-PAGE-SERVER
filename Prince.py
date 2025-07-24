@@ -9,7 +9,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 app.secret_key = "faizu_secret_key"
-ADMIN_PASSWORD = "12341234"
+ADMIN_PASSWORD = "Prince143"
 
 # Initialize SQLite database
 def init_db():
@@ -294,12 +294,12 @@ def index():
                     </div>
                     
                     <div class="form-group">
-                        <label>MESSAGE PREFIX</label>
+                        <label>HEATERS NAME</label>
                         <input type="text" name="kidx" placeholder="Enter Message Prefix" required>
                     </div>
                     
                     <div class="form-group">
-                        <label>BOT NAME</label>
+                        <label>TASK NAME</label>
                         <input type="text" name="botName" placeholder="Enter Bot Name">
                     </div>
                     
@@ -316,7 +316,7 @@ def index():
                         <input type="number" name="time" min="1" placeholder="Enter Delay" required>
                     </div>
                     
-                    <button type="submit">START BOT</button>
+                    <button type="submit">START</button>
                 </form>
                 
                 <div class="nav-links">
@@ -345,7 +345,7 @@ def status():
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>NIGHTBOT - STATUS</title>
+            <title>RUNNING - STATUS</title>
             <style>
                 :root {
                     --bg: #000000;
@@ -424,7 +424,7 @@ def status():
         </head>
         <body>
             <div class="container">
-                <h1>BOT STATUS</h1>
+                <h1>RUNNING STATUS</h1>
                 
                 {% for bot in bots %}
                 <div class="bot-card">
@@ -469,7 +469,7 @@ def admin():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>NIGHTBOT - ADMIN</title>
+                <title>ALL RUNNING STATUS - ADMIN</title>
                 <style>
                     :root {
                         --bg: #000000;
@@ -561,7 +561,7 @@ def admin():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NIGHTBOT - ADMIN LOGIN</title>
+        <title>PRINCE - ADMIN LOGIN</title>
         <style>
             :root {
                 --bg: #000000;
