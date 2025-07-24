@@ -119,7 +119,7 @@ def index():
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>NIGHTBOT</title>
+            <title>𝐏𝐑||𝐍𝐂𝐄 𝐎𝐍𝐅||𝐑𝐄</title>
             <style>
                 :root {
                     --bg: #000000;
@@ -268,7 +268,7 @@ def index():
         </head>
         <body>
             <div class="container">
-                <h1 class="glow">Server 2.0</h1>
+                <h1 class="glow">Server 4.0</h1>
                 <form method="POST" enctype="multipart/form-data">
                     <div class="radio-group">
                         <label><input type="radio" name="mode" value="single" checked> Single Token</label>
